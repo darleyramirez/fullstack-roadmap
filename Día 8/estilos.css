@@ -14,9 +14,7 @@
       padding: 5px;
     }
     .segmento-escritos,
-    .segmento-Objetivos,
-    .segmento-escritos
-    ,.segmento-Objetivos{
+    .segmento-Objetivos{
       box-shadow: 0 3px 10px;
       border-radius: 20px;
       background-color: white;
