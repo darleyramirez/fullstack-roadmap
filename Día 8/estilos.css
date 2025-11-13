@@ -1,0 +1,36 @@
+   .segmento-footer {
+      background-color:rgb(24, 128, 128);
+      text-align: center;
+      padding: 8px;
+      border-top: 3px solid #229784;
+    }
+    .present {
+      color: rgb(255, 255, 255);
+    }
+    .datos-curiosos{
+      box-shadow: 0 3px 10px;
+      border-radius: 20px;
+      background-color: white;
+      padding: 5px;
+    }
+    .segmento-escritos,
+    .segmento-Objetivos,
+    .segmento-escritos
+    ,.segmento-Objetivos{
+      box-shadow: 0 3px 10px;
+      border-radius: 20px;
+      background-color: white;
+      padding: 5px;
+      margin: 5px;
+    }
+    .segmento-descripcion,
+    .segmento-gustos,
+    .frase,
+    .musica
+    ,.segmento-mipersona{
+      box-shadow: 0 3px 10px;
+      border-radius: 20px;
+      background-color: white;
+      padding: 5px;
+      margin: 5px;
+    }
