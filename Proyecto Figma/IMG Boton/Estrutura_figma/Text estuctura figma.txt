@@ -1,0 +1,135 @@
+Ejercicio de figma estructura semantica.
+
+General
+Encabezado/Navegación Superior
+
+Logo "writings.dev" alineado a la izquierda
+Menú de navegación a la derecha con enlaces: "categorías", "artículos", "acerca de"
+Fondo oscuro (tema oscuro)
+
+Sección Héroe/Principal
+
+Ícono central con pluma y tintero (identidad visual)
+Título principal: "Escritos para desarrolladores" en color naranja/coral
+Subtítulo: "Colección seleccionada de artículos que ayudan a los desarrolladores ocupados"
+Barra de filtros/etiquetas horizontal con categorías como: "Todo", "desarrollador", "startup", "Herramientas", "Flujo de trabajo", "Arquitectura", "Soporte", "Explicar"
+
+Grid de Artículos (Layout Principal) 
+Organizado en una cuadrícula de 3 columnas con tarjetas (cards) que contienen:
+
+Imagen destacada en la parte superior
+Título del artículo
+Descripción breve
+Metadatos en la parte inferior (fecha y categoría/tag)
+Fondo blanco con bordes redondeados
+Efecto de elevación/sombra sutil
+
+Pie de página
+
+Información del sitio "writings.dev"
+Botón "Suscribirse"
+Enlaces a redes sociales (Twitter, GitHub, etc.)
+Botón adicional de acción a la derecha
+
+Características de diseño
+
+Paleta de colores : Fondo oscuro ( #1a1d2eaprox.) con tarjetas blancas
+Tipografía : Sans-serif moderna, legible
+Espaciado : Generoso entre elementos
+Responsive : Se ve como un diseño adaptable a diferentes pantallas
+
+¿Quieres que profundices en algún elemento específico para tu práctica en Figma?ReverDme puedes explicar la composición de cada etiqueta según la estructura¡Por supuesto! Te desgloso cada sección con sus etiquetas HTML semánticas:
+🏗️ Estructura HTML Completa
+<body>
+  └── <header>
+      ├── <nav>
+      │   ├── <a> (logo "writings.dev")
+      │   └── <ul>
+      │       ├── <li><a>categories</a></li>
+      │       ├── <li><a>articles</a></li>
+      │       └── <li><a>about</a></li>
+🎯 Sección Hero
+<main>
+  └── <section class="hero">
+      ├── <div class="hero-icon">
+      │   └── <img> o <svg> (ícono de pluma)
+      ├── <h1>Writings for Developers</h1>
+      ├── <p>Curated collection of articles...</p>
+      └── <nav class="filter-tags"> o <div>
+          └── <ul> o serie de <button>
+              ├── <li><button>All</button></li>
+              ├── <li><button>developer</button></li>
+              ├── <li><button>startup</button></li>
+              └── ... (más tags)
+📰 Cuadrícula de Artículos
+  └── <section class="articles-grid">
+      └── <div class="grid-container">
+          ├── <article class="card">
+          │   ├── <div class="card-image">
+          │   │   └── <img src="..." alt="...">
+          │   ├── <div class="card-content">
+          │   │   ├── <h2> o <h3> (título del artículo)
+          │   │   ├── <p>(descripción)
+          │   │   └── <div class="card-meta">
+          │   │       ├── <time datetime="...">Dec 19, 2021</time>
+          │   │       └── <span class="tag">develop</span>
+          │
+          ├── <article class="card">
+          │   └── (misma estructura...)
+          │
+          └── ... (9 cards en total, 3x3 grid)
+🦶 Pie de página
+<footer>
+  ├── <div class="footer-left">
+  │   ├── <p>writings.dev</p>
+  │   └── <button>Subscribe</button>
+  │
+  ├── <div class="footer-social">
+  │   └── <ul>
+  │       ├── <li><a href="..."><img> GitHub</a></li>
+  │       ├── <li><a href="..."><img> Twitter</a></li>
+  │       ├── <li><a href="..."><img> LinkedIn</a></li>
+  │       └── <li><a href="..."><img> RSS</a></li>
+  │
+  └── <div class="footer-right">
+      └── <button>Get more articles</button>
+📝 Notas para tu Figma:
+Jerarquía de componentes que deberías crear:
+
+Componentes/Átomos:
+
+Botón (primario/secundario)
+Etiqueta/Insignia
+Logo
+Icono
+
+
+Componentes/Moléculas:
+
+Tarjeta (imagen + contenido + meta)
+Elemento de navegación
+Etiqueta de filtro
+
+
+Componentes/Organismos:
+
+Encabezado completo
+Sección de héroes
+Cuadrícula de artículos
+Pie de página
+
+
+Disposición:
+
+Contenedor (ancho máximo)
+Cuadrícula de 3 columnas
+Espaciado consistente (8px, 16px, 24px, 32px)
+
+
+
+Sistema de espacio recomendado:
+
+Tarjetas con relleno: 24 píxeles
+Espacio entre tarjetas: 24 píxeles
+Margen: 48px-64px
+Radio del borde: 8px-12px
