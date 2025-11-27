@@ -26,3 +26,17 @@ function diferencia (valorDado){
 }
 console.log(diferencia(13));
 console.log(diferencia(20));
+
+// Agregando promt
+function diferencia (valorDado){
+    if(valorDado <= 13){
+       return valorDado - 13;
+    }else {
+       let total = valorDado - 13
+        return total * 2;
+    }
+}
+
+ let valoringresado = prompt ("Digita el valor dado");
+ let numero = Number (valoringresado);
+console.log("El valor total es:", diferencia(numero));
