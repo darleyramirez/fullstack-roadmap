@@ -13,3 +13,16 @@ function diferencia(valorDado){
 }
 console.log(diferencia(20));
 console.log(diferencia(13));
+
+// Otra forma de hacerlo 
+
+function diferencia (valorDado){
+    if(valorDado <= 13){
+       return valorDado - 13;
+    }else {
+       let total = valorDado - 13
+        return total * 2;
+    }
+}
+console.log(diferencia(13));
+console.log(diferencia(20));
