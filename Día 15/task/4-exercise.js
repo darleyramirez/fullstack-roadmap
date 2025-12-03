@@ -5,10 +5,11 @@ Este programa JavaScript calcula el área de un triángulo con lados de longitud
 Primero calcula el semiperímetro del triángulo y luego lo usa para hallar el área, que se registra en la consola
 */
 
-function areaTriangulo (lado1,lado2,lado3){
-      let total = lado1+lado2+lado3;
-      let valor = total/2;
-      let resultado = Math.sqrt (valor*(valor-lado1)*(valor-lado2)*(valor-lado3));
-      return resultado;
+
+function areaTriangulo (sideone,sideTwo,sidethree){
+      let total = sideone+sideTwo+sidethree;
+      let value = total/2;
+      let result = Math.sqrt (value*(value-sideone)*(value-sideTwo)*(value-sidethree));
+      return result;
 }
-console.log(areaTriangulo(5,6,7,));
+console.log(areaTriangulo(5,6,7))
